@@ -1,0 +1,17 @@
+{
+  "name": "nms",
+  "description": "A news management system built with The Poly in mind",
+  "dependencies": {},
+  "authors": [
+    "The Polytechnic"
+  ],
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
