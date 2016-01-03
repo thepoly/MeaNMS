@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('../server');
 var debug = require('debug')('nms:server');
 var http = require('http');
 
@@ -19,7 +19,7 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-var app = http.createServer(app);
+app = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
