@@ -1,1 +1,4 @@
 *.mwb.bak
+node_modules
+.idea
+.DS_Store
